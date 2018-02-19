@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Transition, Transformation test</title>
+<style>
+    #square{
+        width: 300px;
+        height: 200px;
+        border: 15px solid purple;
+        margin: 200px auto 0 auto;
+        background-color: green;
+        text-align: center;
+        font-size: 36px;
+        transition: 2s;
+    }
+
+
+    #square:hover{
+     	width: 400px;
+     	height: 400px;
+     	transform: rotateZ(-360deg);
+     	border-radius: 50%
+    }
+
+	#inside {
+		padding:50px;
+		transition: 2s;
+	}
+
+	#inside:hover{
+		padding:100px;
+		color: white;
+		transform: rotateY(360deg);
+	}
+    
+</style>
+
+<script>
+    
+</script>   
+    
+</head>
+<body>
+<div id = "square">This is a TEST<div id = "inside">Move mouse over here</div></div>
+    
+</body>
+</html>
